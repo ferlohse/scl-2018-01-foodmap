@@ -1,0 +1,6 @@
+.fotoFondo {
+    background-image: url(../scl-2018-01-foodmap/img/herson-rodriguez-96102-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 640px;
+}

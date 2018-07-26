@@ -1,0 +1,16 @@
+body{
+    font-family: 'Telex', sans-serif;
+}
+.buscador {
+    width: 500px;
+    height: 36px;
+    margin-top: 30px;
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+#googleMap {
+    height: 300px;
+    width: 100%;
+    margin-top: 15px;
+}
