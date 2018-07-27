@@ -34,7 +34,7 @@ window.addEventListener('resize', function () {
 var behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents(map));
 
 // Marker with custom icon
-var iconUrl = '../';
+var iconUrl = '../img/f25778f30e29a96c44c4f72ef645aa63.png';
 
 var iconOptions = {
   size: new H.math.Size(26, 34),
@@ -47,3 +47,15 @@ var markerOptions = {
 
 var marker = new H.map.Marker(HEREHQcoordinates, markerOptions);
 map.addObject(marker);
+// Create a map:
+var map = new H.Map();
+
+// Create a marker icon from an image URL:
+var icon = new H.map.Icon('../img/368797-200.png');
+
+// Create a marker using the previously instantiated icon:
+var marker = new H.map.Marker({ lat: 52.5, lng: 13.4 }, { icon: icon });
+
+// Add the marker to the map:
+map.addObject(marker);
+

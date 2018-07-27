@@ -1,5 +1,11 @@
 body{
     font-family: 'Telex', sans-serif;
+    background-image: url(../scl-2018-01-foodmap/img/cel-lisboa-60314-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 .buscador {
     width: 500px;
